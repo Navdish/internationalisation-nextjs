@@ -11,9 +11,7 @@ export default function RootLayout({
   return (
     <html lang={language}>
       <body>
-      {/* <NextIntlClientProvider locale={language}> */}
         {children}
-        {/* </NextIntlClientProvider> */}
         </body>
     </html>
   );
